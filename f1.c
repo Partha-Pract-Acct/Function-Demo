@@ -1,22 +1,20 @@
 #include <stdio.h>
 
 // Function prototype
-int sum(int, int);
+float avg(float, float);
 
 // Function defination
-int sum(int x, int y){
-    printf("sum is %d\n", x+y);
-    return x+y;
+float avg(float x, float y){
+    printf("avg is %d\n", (x*y)/2.0);
+    return (x*y);
 }
 int main(){
-    int a = 1;
-    int b = 3;
-    sum(a,b);
+    float a = 1.0;
+    float b = 3.0;
+    avg(a,b);
 
-    int a1 = 9;
-    int b2 = 5;
-    sum(a1,b2);
+    float a1 = 9.0;
+    float b2 = 5.0;
+    avg(a1,b2);
     return 0;
 }
-
-
