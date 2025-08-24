@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main(){
-    int a = 5;
-    printf("the are of this squar id %f\n", pow(a,2));
+    int a = 6;
+    printf("the are of this squar id %f\n", pow(a,3));
     return 0;
 }
